@@ -1,3 +1,3 @@
-# Default
+# User
 
-Default theme for [Lavalite](http://lavalite.org/) cms.
+User theme for [Lavalite](http://lavalite.org/) cms.
