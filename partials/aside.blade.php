@@ -23,7 +23,7 @@
                             class="las la-tachometer-alt"></i><span>Dashboard</span></a>
                 </li>
                 <li class="dropdown">
-                    <a class="nav-link menu-title link-nav" href="#"><i
+                    <a class="nav-link menu-title link-nav" href="{{guard_url('advert/advert')}}"><i
                             class="las la-ad"></i><span>Advertisement</span></a>
                 </li>
                 <li class="dropdown">

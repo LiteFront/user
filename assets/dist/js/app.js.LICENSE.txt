@@ -4,6 +4,12 @@
    */
 
 /*!
+  * Bootstrap v4.6.1 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
  * 
  * Super simple wysiwyg editor v0.8.18
  * https://summernote.org
@@ -14,6 +20,16 @@
  * 
  * Date: 2020-05-20T16:47Z
  * 
+ */
+
+/*!
+ * Cropper.js v1.5.12
+ * https://fengyuanchen.github.io/cropperjs
+ *
+ * Copyright 2015-present Chen Fengyuan
+ * Released under the MIT license
+ *
+ * Date: 2021-06-12T08:00:17.411Z
  */
 
 /*!
@@ -55,7 +71,7 @@
  */
 
 /*!
-FullCalendar v5.10.0
+FullCalendar v5.10.1
 Docs & License: https://fullcalendar.io/
 (c) 2021 Adam Shaw
 */

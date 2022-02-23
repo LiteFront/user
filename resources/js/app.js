@@ -12,6 +12,7 @@ window.PerfectScrollbar = require('perfect-scrollbar/dist/perfect-scrollbar.js')
 require('fullcalendar/main.js');
 window.summernote = require('summernote/dist/summernote-bs4.js');
 window.swal = require('sweetalert/dist/sweetalert.min.js');
+window.cropper = require('cropperjs/dist/cropper.js');
 require('bootstrap-daterangepicker/daterangepicker.js');
 require('bootstrap-datepicker/dist/js/bootstrap-datepicker.js');
 require('jquery-validation/dist/jquery.validate.js');
