@@ -15,6 +15,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         {!!Form::avatar('photo', @user()->photo)->raw()!!}
+
                     </div>
                     <div class="col-lg-7">
                         {!!Form::text('name', @user()->name)!!}

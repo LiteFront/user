@@ -15,6 +15,7 @@
     {!! Theme::asset()->scripts() !!}
 </head>
 
+
 <body>
     <div class="site-wrapper">
         {!! Theme::partial('header') !!}
