@@ -24,6 +24,7 @@
         "@fortawesome/fontawesome-free": "^5.15.3",
         "bootstrap-datepicker": "^1.9.0",
         "bootstrap-daterangepicker": "^3.1.0",
+        "cropperjs": "^1.5.12",
         "dropzone": "^5.9.2",
         "font-awesome": "^4.7.0",
         "fullcalendar": "^5.8.0",

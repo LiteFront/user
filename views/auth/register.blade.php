@@ -38,16 +38,16 @@
                             <button type="submit" class="btn btn-theme btn-block">Sign Up</button>
                         </div>
                         {!! Form::close() !!}
-                    <!-- <div class="social-login">
+                        <div class="social-login">
                         <p>Or you can sign in with</p>
                         <div class="social-login-buttons">
-                            <a href="#" class="btn btn-google fab fa-google"></a>
-                            <a href="#" class="btn btn-facebook fab fa-facebook-f"></a>
-                            <a href="#" class="btn btn-twitter fab fa-twitter"></a>
-                            <a href="#" class="btn btn-linkedin fab fa-linkedin-in"></a>
-                            <a href="#" class="btn btn-github fab fa-github"></a>
+                            <a href="{!!guard_url('login/google')!!}" class="btn btn-google fab fa-google"></a>
+                            <a href="{!!guard_url('login/facebook')!!}" class="btn btn-facebook fab fa-facebook-f"></a>
+                            <a href="{!!guard_url('login/twitter')!!}" class="btn btn-twitter fab fa-twitter"></a>
+                            <a href="{!!guard_url('login/linkedin')!!}" class="btn btn-linkedin fab fa-linkedin-in"></a>
+                            <a href="{!!guard_url('login/github')!!}" class="btn btn-github fab fa-github"></a>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="row mt-20">
                         <div class="col">
                             <a href="{{guard_url('login')}}">Already have an account? <span class="text-primary">Sign In

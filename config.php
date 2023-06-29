@@ -55,16 +55,14 @@ return [
         'beforeRenderTheme' => function ($theme) {
             //You may use this event to set up your assets.
 
-            //You may use this event to set up your assets.
-
-            $theme->asset()->usePath()->add('vendor', 'dist/css/app.css');
+            $theme->asset()->usePath()->add('app', 'dist/css/app.css');
             $theme->asset()->usePath()->add('settings', 'css/settings.css');
             $theme->asset()->usePath()->add('main', 'css/user.css');
             $theme->asset()->usePath()->add('jquery', 'dist/js/jquery.min.js');
 
-            $theme->asset()->usepath()->add('manifest', 'dist/js/manifest.js');
-            $theme->asset()->usepath()->add('vendor', 'dist/js/vendor.js');
-            $theme->asset()->usepath()->add('app', 'dist/js/app.js');
+            $theme->asset()->container('footer')->usepath()->add('manifest', 'dist/js/manifest.js');
+            $theme->asset()->container('footer')->usepath()->add('vendor', 'dist/js/vendor.js');
+            $theme->asset()->container('footer')->usepath()->add('app', 'dist/js/app.js');
             $theme->asset()->container('footer')->usepath()->add('main', 'js/main.js');
         },
 
