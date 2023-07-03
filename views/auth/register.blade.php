@@ -13,23 +13,23 @@
                         ->id('register')
                         ->addClass('login-form')
                         ->method('POST')!!}
-                        <div class="form-group">
+                        <div class="mb-3">
                             <input type="text" class="form-control" placeholder="Full name" name="name" required="">
                             <i class="las la-user-circle"></i>
                         </div>
-                        <div class="form-group">
+                        <div class="mb-3">
                             <input type="email" class="form-control" placeholder="Email" name="email" required="">
                             <i class="las la-envelope"></i>
                         </div>
-                        <!-- <div class="form-group">
+                        <!-- <div class="mb-3">
                             <input type="tel" class="form-control" placeholder="Phone" required="">
                             <i class="las la-phone"></i>
                         </div> -->
-                        <div class="form-group">
+                        <div class="mb-3">
                             <input type="password" class="form-control" placeholder="Password" name="password" required="">
                             <i class="las la-key"></i>
                         </div>
-                        <div class="form-group">
+                        <div class="mb-3">
                             <input type="password" class="form-control" placeholder="Repeat Password"  name="password_confirmation" required="">
                             <i class="las la-lock"></i>
                         </div>
