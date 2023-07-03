@@ -1,10 +1,10 @@
 <div class="auth-wrapper">
     <div class="container h-100">
         <div class="row flex-row h-100 auth-form-bg align-items-center">
-            <div class="col-xl-6 col-lg-6 col-md-5 d-md-block d-lg-block d-sm-none d-none">
+            <div class="col-xl-8 col-lg-8 col-md-5 d-md-block d-lg-block d-sm-none d-none">
                 <img src="{{theme_asset('img/login-1.png')}}" class="img-fluid" alt="">
             </div>
-            <div class="col-xl-5 col-lg-6 col-md-7 ml-auto authentication-form-block">
+            <div class="col-xl-4 col-lg-4 col-md-7 ml-auto authentication-form-block">
                 <div class="authentication-form mx-auto">
                     <h2 class="mb-20">Sign In to <br>Classifieds</h2>
                     <p>Sign in to your account</p>
@@ -13,27 +13,30 @@
                     ->id('login')
                     ->addClass('login-form')
                     ->method('POST')!!}
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="email" placeholder="Email Address" required="">
+                    <div class="mb-3 form-group">
+                        {!! Form::email('email')
+                        ->required()
+                        ->raw() !!}
                         <i class="las la-user-circle"></i>
                     </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password" required="">
+                    <div class="mb-3">
+                    {!! Form::password('password')
+                        ->required()
+                        ->raw() !!}
                         <i class="las la-key"></i>
                     </div>
                     <div class="row mt-20 mb-20">
-                        <div class="col text-left">
-                            <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input" id="remember" name="remember"
-                                    value="remember">
-                                <label class="custom-control-label" for="remember_me">Remember Me</label>
+                        <div class="col text-start">
+                            <div class="form-check form-switch">
+                                <input type="checkbox" class="form-check-input" id="remember_me" checked>
+                                <label class="form-check-label text-white" for="remember_me">Remember Me</label>
                             </div>
                         </div>
-                        <div class="col text-right">
+                        <div class="col text-end">
                             <a href="{{guard_url('password/reset')}}">Forgot Password ?</a>
                         </div>
                     </div>
-                    <div class="sign-btn text-center">
+                    <div class="sign-btn">
                         <button type="submit" class="btn btn-theme btn-block">Sign In</button>
                     </div>
                     {!! Form::close() !!}
