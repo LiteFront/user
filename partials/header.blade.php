@@ -7,7 +7,7 @@
             <div class="header-btns">
                 @if(user())
                 <div class="dropdown user-dropdown">
-                    <button class="btn dropdown-toggle" type="button" id="user_dropdown" data-toggle="dropdown"
+                    <button class="btn dropdown-toggle" type="button" id="user_dropdown" data-bs-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         <span class="user-name mr-10">{{user()->name}}</span>
                         <span class="user-avatar" style="background-image: url({{user()->picture}})"></span>
